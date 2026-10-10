@@ -11,7 +11,7 @@
       networking.firewall.allowedUDPPorts = [ 53317 ];
     };
 
-    homePersist.files = [
+    persistHome.files = [
       ".local/share/org.localsend.localsend_app/shared_preferences.json"
     ];
   };
